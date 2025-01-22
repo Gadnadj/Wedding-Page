@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #D4B996;
+  --color-secondary: #C1666B;
+  --color-background: #FFFFFF;
+  --color-text: #333333;
+  --color-accent: #4A4E69;
+}
+
+@layer base {
+  body {
+    color: var(--color-text);
+    background: var(--color-background);
+    font-family: theme('fontFamily.body');
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: theme('fontFamily.title');
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+}
+
+/* Support RTL pour l'hébreu */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="ltr"] {
+  text-align: left;
+}
