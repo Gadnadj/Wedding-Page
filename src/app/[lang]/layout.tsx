@@ -3,18 +3,18 @@ import { Playfair_Display, Raleway } from "next/font/google";
 import "../globals.css";
 
 const playfair = Playfair_Display({
-  variable: "--font-title",
   subsets: ["latin"],
+  variable: "--font-title",
 });
 
 const raleway = Raleway({
-  variable: "--font-body",
   subsets: ["latin"],
+  variable: "--font-body",
 });
 
 export const metadata: Metadata = {
-  title: "Wedding Template",
-  description: "A beautiful wedding website template",
+  title: "Lior & Liel Wedding",
+  description: "Wedding website",
 };
 
 export default function RootLayout({

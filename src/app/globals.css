@@ -27,12 +27,3 @@
     @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
   }
 }
-
-/* Support RTL pour l'hébreu */
-[dir="rtl"] {
-  text-align: right;
-}
-
-[dir="ltr"] {
-  text-align: left;
-}
