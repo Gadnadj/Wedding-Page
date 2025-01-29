@@ -28,7 +28,7 @@ export default function RootLayout({
   
   return (
     <html lang={params.lang} dir={dir}>
-      <body className={`${playfair.variable} ${raleway.variable} overflow-x-hidden`}>
+      <body className={`${playfair.variable} ${raleway.variable}`}>
         {children}
       </body>
     </html>
