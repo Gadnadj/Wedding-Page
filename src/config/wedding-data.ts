@@ -1,9 +1,33 @@
 export const weddingData = {
   couple: {
-    partner1: "Lior",
-    partner2: "Liel",
+    fr: {
+    partner1: "Aviram",
+    partner2: "Liel"
+    },
+    he: {
+      partner1: "אבירם",
+      partner2: "ליאל"
+    }
   },
-  date: "27.08.2025",
+  date: {
+    day: "10",
+    month: "October",
+    year: "2025"
+  },
+  timeUnits: {
+    fr: {
+      days: "jours",
+      hours: "heures",
+      minutes: "minutes",
+      seconds: "secondes"
+    },
+    he: {
+      days: "ימים",
+      hours: "שעות",
+      minutes: "דקות",
+      seconds: "שניות"
+    }
+  },
   location: {
     fr: {
       name: "Destino",
@@ -28,5 +52,54 @@ export const weddingData = {
       { time: "19:00", event: "ארוחת ערב" },
       { time: "21:00", event: "ריקודים" }
     ]
-  }
+  },
+  months: {
+    'Janvier': '01',
+    'January': '01',
+    'ינואר': '01',
+    
+    'Février': '02',
+    'February': '02',
+    'פברואר': '02',
+    
+    'Mars': '03',
+    'March': '03',
+    'מרץ': '03',
+    
+    'Avril': '04',
+    'April': '04',
+    'אפריל': '04',
+    
+    'Mai': '05',
+    'May': '05',
+    'מאי': '05',
+    
+    'Juin': '06',
+    'June': '06',
+    'יוני': '06',
+    
+    'Juillet': '07',
+    'July': '07',
+    'יולי': '07',
+    
+    'Août': '08',
+    'August': '08',
+    'אוגוסט': '08',
+    
+    'Septembre': '09',
+    'September': '09',
+    'ספטמבר': '09',
+    
+    'Octobre': '10',
+    'October': '10',
+    'אוקטובר': '10',
+    
+    'Novembre': '11',
+    'November': '11',
+    'נובמבר': '11',
+    
+    'Décembre': '12',
+    'December': '12',
+    'דצמבר': '12'
+  } as const,
 }; 

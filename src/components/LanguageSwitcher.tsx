@@ -9,7 +9,7 @@ type Props = {
 
 export const LanguageSwitcher = ({ currentLang }: Props) => {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 rtl:flex-row-reverse">
       <Link
         href="/fr"
         className={`px-2 py-1 rounded ${
